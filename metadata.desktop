@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=sddm-theme-omupa
+Description=Minimalist theme for sddm
+Author=omupa
+Copyright=(c) 2026, Omupa
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=background.jpg
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=omupa
+Theme-API=2.0
