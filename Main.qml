@@ -101,7 +101,7 @@ Rectangle {
             ImageButton {
 			    id: btnSuspend
 			    height: parent.height
-			    source: "suspend.png"
+			    source: "suspend.svg"
 			    visible: sddm.canSuspend
 			    KeyNavigation.backtab: layoutBox; KeyNavigation.tab: btnReboot
 			    
@@ -113,7 +113,7 @@ Rectangle {
             ImageButton {
 			    id: btnReboot
 			    height: parent.height
-			    source: "reboot.png"
+			    source: "reboot.svg"
 			    visible: sddm.canReboot
 			    KeyNavigation.backtab: btnSuspend; KeyNavigation.tab: btnShutdown
 
@@ -126,7 +126,7 @@ Rectangle {
             ImageButton {
 			    id: btnShutdown
 			    height: parent.height
-			    source: "shutdown.png"
+			    source: "shutdown.svg"
 			    visible: sddm.canPowerOff
 			    KeyNavigation.backtab: btnReboot; KeyNavigation.tab: usernameInput
 
